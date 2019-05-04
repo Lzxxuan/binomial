@@ -1,13 +1,13 @@
 ## Overview
-"binomial" is an R package that implements functions for calculating probabilities of a Binomial random variable, and related calculations such as the probability distribution, the expected value, variance, etc.
+`"binomial"` is an [R](https://www.r-project.org/) package that implements functions for calculating probabilities of a Binomial random variable, and related calculations such as the probability distribution, the expected value, variance, etc.
 
 
-`bin_variable()` creates a binomial random variable (of class "binvar")
-`bin_probability()` gets a value of probability with a certain combination of trials, successes and probability for a success
-`bin_distribution()` displays the dataframe of the binomial distribution
-`plot(bin_distribution())` method for a binomial distribution object to plot distribution over successes
-`bin_cumulative()` displays the dataframe of the binomial cumulative distribution
-`plot(bin_cumulative())` method for a binomial cumulative distribution object to plot cumulative distribution over successes
+- `bin_variable()` creates a binomial random variable (of class `"binvar"`)
+- `bin_probability()` gets a value of probability with a certain combination of trials, successes and probability for a success
+- `bin_distribution()` displays the dataframe of the binomial distribution
+- `plot(bin_distribution())` method for a binomial distribution object to plot distribution over successes
+- `bin_cumulative()` displays the dataframe of the binomial cumulative distribution
+- `plot(bin_cumulative())` method for a binomial cumulative distribution object to plot cumulative distribution over successes
 
 ## Motivation
 This package has been developed to illustrate some of the concepts behind the creation of an R package.
