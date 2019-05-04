@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"README\"\nauthor: \"Zixuan Li\"\ndate: \"5/1/2019\"\noutput: html_document\n---\n## Overview\n\"binomial\" is an R package that implements functions for calculating probabilities of a Binomial random variable, and related calculations such as the probability distribution, the expected value, variance, etc.\n\n\n`bin_variable()` creates a binomial random variable (of class \"binvar\")\n`bin_probability()` gets a value of probability with a certain combination of trials, successes and probability for a success\n`bin_distribution()` displays the dataframe of the binomial distribution\n`plot(bin_distribution())` method for a binomial distribution object to plot distribution over successes\n`bin_cumulative()` displays the dataframe of the binomial cumulative distribution\n`plot(bin_cumulative())` method for a binomial cumulative distribution object to plot cumulative distribution over successes\n\n## Motivation\nThis package has been developed to illustrate some of the concepts behind the creation of an R package.\n\n## Installation\nInstall the development version from GitHub via the package \"devtools\":\n```{r}\n# development version from GitHub:\n#install.packages(\"devtools\") \n\n# install \"cointoss\" (without vignettes)\ndevtools::install_github(\"Lzxxuan/binomial\")\n\n# install \"cointoss\" (with vignettes)\ndevtools::install_github(\"Lzxxuan/binomial\", build_vignettes = TRUE)\n```\n## Usage\n```{r}\nlibrary(binomial)\n# default variable\nbin1 <- bin_variable()\nbin1\n\n# summary of default variable\nbin1 <- bin_variable()\nbinsum1 <- summary(bin1)\nbinsum1\n\n# probability of n trials, k successes, prob p\nbin_probability()\n\n# binomial distribution\nbin_distribution()\n\n# plot of binomial distribution\ndis1 <- bin_distribution()\nplot(dis1)\n\n# binomial cumulative distribution\nbin_cumulative()\n\n# plot of binomial cumulative distribution\ndis2 <- bin_cumulative()\nplot(dis2)\n```\n",
+    "created" : 1556943806371.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1366644860",
+    "id" : "1069F7A2",
+    "lastKnownWriteTime" : 1556943832,
+    "last_content_update" : 1556943832447,
+    "path" : "~/Desktop/binomial/README.Rmd",
+    "project_path" : "README.Rmd",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

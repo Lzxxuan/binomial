@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "^Meta$\n^doc$\n^.*\\.Rproj$\n^\\.Rproj\\.user$\n^devtools-binomial.R\n",
+    "created" : 1556926360214.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4183847241",
+    "id" : "9238F428",
+    "lastKnownWriteTime" : 1556925821,
+    "last_content_update" : 1556925821,
+    "path" : "~/Desktop/.Rbuildignore",
+    "project_path" : null,
+    "properties" : {
+        "source_window_id" : "wxvwtoezmkdnz"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "text"
+}

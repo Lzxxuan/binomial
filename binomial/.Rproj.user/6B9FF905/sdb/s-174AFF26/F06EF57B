@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"Introduction\"\nauthor: \"Zixuan Li\"\ndate: \"5/2/2019\"\noutput: html_document\n---\n\n```{r, echo = FALSE, message = FALSE}\nknitr::opts_chunk$set(collapse = T, comment = \"#>\")\nlibrary(binomial)\n```\n\n## Binomial Functions\n\n\"binomial\" is an R package that implements functions for calculating probabilities of a Binomial random variable, and related calculations such as the probability distribution, the expected value, variance, etc.\n\nWhen X is a random variable that has a binomial distribution with n trials and probability\nof success p, we write X ∼ Bin(n, p). As with most random variables.\n\n## Binimial Variable\n\nFirst create a binomial variable with specific a trial number and a probability number.\nBy calling the function bin_variable(), you can get a demonstration of your chosen values and a validity check on your chosen values.\n\n```{r}\nbin1 <- bin_variable(trials = 10, prob = 0.3)\nbin1\n```\n\nIf you want to get a full summary description of the object you have created, use the following method:\n```{r}\nbin1 <- bin_variable(trials = 10, p = 0.3)\nbinsum1 <- summary(bin1)\nbinsum1\n```\n\n## Mean\n\nThe expected number of successes in n trials or the expected value of a binomial distribution can be calculated by using:\n```{r}\nbin_mean(trials = 100, prob = 0.3)\n```\n\n## Variance\n\nThe variance of a binomial distribution can by calculated by using:\n```{r}\nbin_variance(trials = 100, prob = 0.3)\n```\n\n## Mode\n\nFor 0 < p < 1, the most likely number of success in n independent trials with probability p\nof success on each trial is m, and it can be calculated by using:\n```{r}\nbin_mode(trials = 100, prob = 0.3)\n```\n\n## Skewness\n\nSkewness is a measure of the asymmetry of the probability distribution of a random variable about its mean. The skewness of a binomial random variable can be calculated bt using:\n```{r}\nbin_skewness(trials = 100, prob = 0.3)\n```\n\n## Kurtosis\n\nThe Kurtosis is a measure of the “tailedness” of the probability distribution of a random variable.For a binomial random variable, its kurtosis can be calculated in this package by using:\n```{r}\nbin_kurtosis(trials = 100, prob = 0.3)\n```\n\n## Combinations\n\nTo calculate the number of combinations in which k successes can occur in n trials, use following method:\n```{r}\nbin_choose(n = 5, k = 2)\n```\n\n## Binomial Probability\n\nTo abtain a certain probability in which k successes can occur in n trials with probability p for each success to happen:\n```{r}\nbin_probability(success = 2, trials = 5, prob = 0.5)\n```\n\n## Binomial Distribution\n\nUse bin_distribution() to generate the binomial distribution datafrmae of n trials, k successes, and probability p:\n```{r}\nbin_distribution(trials = 5, prob = 0.5)\n```\n\nTo get a intuitive graph that displays the probability histogram of the binomial distribution object, include the following method to obtain the plot:\n```{r}\ndis1 <- bin_distribution(trials = 5, prob = 0.5)\nplot(dis1)\n```\n\n## Binomial Cumulative Distribution\n\nTo return a data frame with both the probability distribution and the cumulative probabilities, you can include bin_cumulative() to make it happen:\n```{r}\nbin_cumulative(trials = 5, prob = 0.5)\n```\n\nTo get the graoh of the cumulative distribution, use a similar method:\n```{r}\ndis2 <- bin_cumulative(trials = 5, prob = 0.5)\nplot(dis2)\n```\n\n",
+    "created" : 1556825624298.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3392332809",
+    "id" : "F06EF57B",
+    "lastKnownWriteTime" : 1556855720,
+    "last_content_update" : 1556855720928,
+    "path" : "~/Desktop/binomial/vignettes/Introduction.Rmd",
+    "project_path" : "vignettes/Introduction.Rmd",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

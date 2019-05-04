@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "Package: binomial\nType: Package\nTitle: Binomial Funtions\nVersion: 0.1.0\nAuthor: Zixuan Li\nMaintainer: Zixuan Li <lzx_xuan@berkeley.edu>\nDescription: This is an R package that implements functions for calculating probabilities of a Binomial random variable, and related calculations such as the probability distribution, the expected value, variance, etc\nLicense: GPL-2\nEncoding: UTF-8\nLazyData: true\nRoxygenNote: 6.0.1\n",
+    "created" : 1556852523474.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "877254521",
+    "id" : "C469C1F6",
+    "lastKnownWriteTime" : 1556922259,
+    "last_content_update" : 1556922259743,
+    "path" : "~/Desktop/binomial/DESCRIPTION",
+    "project_path" : "DESCRIPTION",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "dcf"
+}
